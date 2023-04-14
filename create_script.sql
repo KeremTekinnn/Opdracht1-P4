@@ -7,13 +7,13 @@
 -- **********************************************************************************/
 
 -- Check if the database exists
-DROP DATABASE IF EXISTS `Mvc-2209a-P4`;
+DROP DATABASE IF EXISTS `Mvc-2209c-P4`;
 
 -- Create a new Database
-CREATE DATABASE IF NOT EXISTS `Mvc-2209a-P4`;
+CREATE DATABASE IF NOT EXISTS `Mvc-2209c-P4`;
 
--- Use database Mvc-2209a-P4
-Use `Mvc-2209a-P4`;
+-- Use database Mvc-2209c-P4
+Use `Mvc-2209c-P4`;
 
 -- Step: 02
 -- Goal: Create a new table Persoon
@@ -67,4 +67,7 @@ INSERT INTO Persoon
 )
 VALUES
      ('Li', '', 'Zhan', '06-28493827', '2015-04-17', '***', 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('Leroy', '', 'Boerhaven', '06-39398734', '2018-06-25', '*', 1, NULL, SYSDATE(6), SYSDATE(6));
+    ,('Leroy', '', 'Boerhaven', '06-39398734', '2018-06-25', '*', 1, NULL, SYSDATE(6), SYSDATE(6))
+    ,('Yoeri', 'Van', 'Zhan', '06-24383291', '2010-05-12', '***', 1, NULL, SYSDATE(6), SYSDATE(6))
+    ,('Bert', 'Van', 'Zhan', '06-48293823', '2023-01-10', '****', 1, NULL, SYSDATE(6), SYSDATE(6))
+    ,('Mohammed', 'El', 'Yassidi', '06-34291234', '2010-06-14', '*****', 1, NULL, SYSDATE(6), SYSDATE(6));
